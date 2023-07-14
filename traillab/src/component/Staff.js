@@ -48,7 +48,6 @@ function Staff() {
                                 <Link to={`detail/${data.id}`}>
                                     <Button size="small">Detail</Button>
                                 </Link>
-
                             </CardActions>
                         </Card>
                     </Grid>
