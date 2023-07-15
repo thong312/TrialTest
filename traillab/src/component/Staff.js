@@ -44,8 +44,7 @@ function Staff() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">{data.nation}</Button>
-                                <Link to={`detail/${data.id}`}>
+                                <Link to={`detail/${data.id}` }style={{ marginRight: 'auto' }}>
                                     <Button size="small">Detail</Button>
                                 </Link>
                             </CardActions>
